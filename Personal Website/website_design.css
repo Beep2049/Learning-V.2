@@ -36,26 +36,26 @@ h3 {
 }
 
 a {
-  color: inherit; /* Use the same color as the surrounding text */
-  text-decoration: none; /* Remove underline from links */
+  color: inherit; 
+  text-decoration: none; 
 }
 
-/* Link states */
+
 a:link {
-  color: inherit; /* Use the same color as the surrounding text */
+  color: inherit; 
 }
 
 a:visited {
-  color: inherit; /* Keep the same color after the link is visited */
+  color: inherit; 
 }
 
 a:hover {
-  color: inherit; /* Maintain the same color on hover */
-  text-decoration: underline; /* Optional: Add underline on hover for effect */
+  color: inherit; 
+  text-decoration: underline; 
 }
 
 a:active {
-  color: inherit; /* Maintain the same color when the link is active */
+  color: inherit; 
 }
 #about-text, #project-mini-header {
   max-width: 1200px;
@@ -64,17 +64,17 @@ a:active {
 }
 #header {
   display: flex;
-  justify-content: center;   /* Horizontally center the text */
-  align-items: center;       /* Vertically center the text */
-  height: 50vh;             /* Adjust the height to center vertically in the viewport */
-  text-align: center;        /* Center the text content */
-  animation: blink-cursor 0.75s step-end infinite; /* Cursor blink effect */
+  justify-content: center;   
+  align-items: center;       
+  height: 50vh;             
+  text-align: center;        
+  animation: blink-cursor 0.75s step-end infinite; 
 }
 
 #header-text {
-  font-size: 4.5rem;         /* Adjust font size as needed */
-  color: white;               /* Change the color as needed */
-  margin: 0;                 /* Remove default margin */
+  font-size: 4.5rem;        
+  color: white;              
+  margin: 0;                 
 }
 
 #header-text::after {
@@ -133,15 +133,15 @@ a:active {
 }
 
 .project-text-container {
-  text-align: center;  /* Centers the text inside the container */
-  margin-bottom: 20px; /* Adds some spacing below the text */
+  text-align: center;  
+  margin-bottom: 20px; 
 }
 #project-header, 
 #project-description {
-  text-align: center; /* Centers the text */
-  margin: 0 auto;     /* Center the element horizontally */
-  width: 100%;        /* Ensures the element spans the full width of the parent container */
-  padding: 10px 0;    /* Adds some vertical spacing */
+  text-align: center; 
+  margin: 0 auto;     
+  width: 100%;        
+  padding: 10px 0;    
 }
 
 .project-div {
@@ -155,105 +155,105 @@ a:active {
 }
 
 .project-tile {
-  position: relative;          /* Enables positioning for overlay elements */
-  flex: 1 1 calc(33.333% - 20px); /* 3 tiles per row with space between */
-  box-sizing: border-box;      /* Includes padding and border in width */
-  text-align: center;          /* Center the text inside the tile */
+  position: relative;          
+  flex: 1 1 calc(33.333% - 20px); 
+  box-sizing: border-box;      
+  text-align: center;          
   background-color: rgb(255, 255, 255);
   color: white;
   margin: 5px;                
   border-radius: 8px;
-  overflow: hidden;            /* Ensures content doesn't overflow the tile */
-  transition: transform 0.3s, background-color 0.3s;  /* Smooth transition for hover effects */
+  overflow: hidden;           
+  transition: transform 0.3s, background-color 0.3s;  
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 .project-tile-text {
-  position: absolute;          /* Position the text over the image */
-  transform: translate(-50%, -50%); /* Adjusts the position to truly center the text */
+  position: absolute;          
+  transform: translate(-50%, -50%); 
   top: 50%;
   left: 50%;
-  width: auto;                 /* Cover the entire tile width */
-  color: white;                /* Text color */
-  font-size: 2rem;             /* Larger font size */
-  font-weight: bold;           /* Bold text */
-  text-align: center;          /* Center the text */
-  text-decoration: none;       /* Remove underline from text */
-  white-space: nowrap;        /* Prevent text from wrapping */
-  opacity: 0;                  /* Hide text initially */
-  transition: opacity 0.3s, transform 0.3s, color 0.3s; /* Smooth transition for hover effects */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds shadow to the text for better visibility */
+  width: auto;                
+  color: white;               
+  font-size: 2rem;            
+  font-weight: bold;          
+  text-align: center;          
+  text-decoration: none;       
+  white-space: nowrap;        
+  opacity: 0;                 /
+  transition: opacity 0.3s, transform 0.3s, color 0.3s; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
 }
 
 .project-tile img {
-  width: 100%;                 /* Ensures image covers full width */
-  height: 100%;                /* Ensures image covers full height */
-  object-fit: cover;           /* Ensures image covers the entire tile */
-  display: block;              /* Ensures block-level element */
-  transition: opacity 0.3s;    /* Smooth transition for hover effects */
+  width: 100%;                
+  height: 100%;                
+  object-fit: cover;           
+  display: block;              
+  transition: opacity 0.3s;    
 }
 
 .project-tile:hover {
-  transform: scale(1.02); /* Slightly scale up the tile on hover */
+  transform: scale(1.02); 
 }
 
 .project-tile:hover img {
-  opacity: 0.7;                /* Fades the image when hovered */
+  opacity: 0.7;                
 }
 
 .project-tile:hover .project-tile-text {
-  opacity: 1;                  /* Show text when hovered */
-  transform: translate(-50%, -50%) scale(1.1); /* Slightly increase text size on hover */
+  opacity: 1;                  
+  transform: translate(-50%, -50%) scale(1.1); 
 }
 
 .project-tile a {
-  position: absolute;          /* Positions the text over the image */
-  top: 50%;                    /* Center text vertically */
-  left: 50%;                   /* Center text horizontally */
-  transform: translate(-50%, -50%); /* Adjusts the position to truly center the text */
-  color: white;                /* Text color */
-  padding: 10px 20px;          /* Padding around text */
-  text-align: center;          /* Centers the text */
-  text-decoration: none;       /* Removes underline from text */
-  font-size: 1.2rem;           /* Adjusts font size */
-  border-radius: 4px;          /* Adds slight rounding to the text background */
-  transition: background-color 0.3s; /* Smooth transition for hover effects */
+  position: absolute;          
+  top: 50%;                    
+  left: 50%;                  
+  transform: translate(-50%, -50%); 
+  color: white;               
+  padding: 10px 20px;         
+  text-align: center;          
+  text-decoration: none;       
+  font-size: 1.2rem;          
+  border-radius: 4px;          
+  transition: background-color 0.3s; 
 }
 
 @media (max-width: 900px) {
   .project-tile {
-    flex: 1 1 calc(50% - 20px); /* 2 tiles per row on medium screens */
+    flex: 1 1 calc(50% - 20px);
   }
 }
 
 @media (max-width: 600px) {
   .project-tile {
-    flex: 1 1 100%;  /* 1 tile per row on small screens */
+    flex: 1 1 100%; 
   }
 }
 
 .profile-link {
-  text-decoration: none;   /* Remove underline from links */
-  color: rgb(255, 255, 255);            /* Default text color */
-  font-size: 24px;         /* Icon size */
-  padding: 10px;           /* Space around the icon */
-  margin: 5px;             /* Space between buttons */
+  text-decoration: none;   
+  color: rgb(255, 255, 255);            
+  font-size: 24px;         
+  padding: 10px;           
+  margin: 5px;             
   height: 50px;
   width: 50px;
-  border-radius: 60%;      /* Circular buttons */
-  display: inline-block;   /* Keep icons inline */
-  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  border-radius: 60%;      
+  display: inline-block;   
+  transition: background-color 0.3s, transform 0.3s; 
   text-align: center;
-  border: 2px solid transparent;            /* Start with no border */
+  border: 2px solid transparent;            
   box-shadow: #333;
 }
 
 .profile-link i {
-  text-align: center; /* Center the icon horizontally */
+  text-align: center; 
 }
 
 .profile-link:hover {
-  transform: scale(1.1);  /* Slightly increase the size */
-  color: #fff;            /* Keep the icon color white on hover */ 
+  transform: scale(1.1);  
+  color: #fff;            
 }
 
 #Linkedin {
