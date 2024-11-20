@@ -14,10 +14,10 @@ class Game:
 
     # Health and score Setup
     self.lives = 3
-    self.live_surf = pygame.image.load(r"C:\The Tings\Projects\personal_website\Website Projects\Space Invaders\graphics_sp\player.png").convert_alpha()
+    self.live_surf = pygame.image.load(r"...\graphics_sp\player.png").convert_alpha()
     self.live_x_start_pos = screen_width - (self.live_surf.get_size()[0] * 2 + 20)
     self.score = 0
-    self.font = pygame.font.Font(r"C:\The Tings\Projects\personal_website\Website Projects\Space Invaders\text_sp\Pixeled.ttf", 20)
+    self.font = pygame.font.Font(r"...\text_sp\Pixeled.ttf", 20)
 
     # Obstacle Set up
     self.shape = obstacle.shape
@@ -38,15 +38,15 @@ class Game:
     self.extra_spawn_time = randint(40, 80)
 
     # Audio
-    music = pygame.mixer.Sound(r"C:\The Tings\Projects\personal_website\Website Projects\Space Invaders\sounds_sp\music.wav")
+    music = pygame.mixer.Sound(r"...\sounds_sp\music.wav")
     music.set_volume(0.2)
     music.play(loops = -1)
     
     # Laser Sound
-    self.laser_sound = pygame.mixer.Sound(r"C:\The Tings\Projects\personal_website\Website Projects\Space Invaders\sounds_sp\audio_laser.wav")
+    self.laser_sound = pygame.mixer.Sound(r"...\sounds_sp\audio_laser.wav")
     self.laser_sound.set_volume(0.5)
     # Explosion sound
-    self.explosion_sound = pygame.mixer.Sound(r"C:\The Tings\Projects\personal_website\Website Projects\Space Invaders\sounds_sp\audio_explosion.wav")
+    self.explosion_sound = pygame.mixer.Sound(r"...\sounds_sp\audio_explosion.wav")
     self.explosion_sound.set_volume(0.3)
     
   def create_obstacle(self, x_start, y_start, offset_x):
@@ -192,7 +192,7 @@ class Game:
 
 class CRT:
   def __init__(self):
-    self.tv = pygame.image.load(r"C:\The Tings\Projects\personal_website\Website Projects\Space Invaders\graphics_sp\tv.png").convert_alpha()
+    self.tv = pygame.image.load(r"...\graphics_sp\tv.png").convert_alpha()
     self.tv = pygame.transform.scale(self.tv, (screen_width, screen_height))
 
   def create_crt_lines(self):
