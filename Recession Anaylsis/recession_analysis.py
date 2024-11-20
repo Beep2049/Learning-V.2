@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Importing the data
-data = pd.read_csv(r"C:\Users\ebello\OneDrive - United Against Poverty\Desktop\D.A.P\u.s_gdp_percent_change_per_quarter.csv")
+data = pd.read_csv(r".../u.s_gdp_percent_change_per_quarter.csv")
 print(data.head())
 
 
