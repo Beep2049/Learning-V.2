@@ -15,7 +15,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Importing the dataset
-df = pd.read_csv(r"C:\Users\ebello\OneDrive - United Against Poverty\Desktop\D.A.P\AAPL.csv")
+df = pd.read_csv(r"....\D.A.P\AAPL.csv")
 print(df.head())
 
 # Rows & Columns
