@@ -10,7 +10,7 @@ df = pd.DataFrame()
 
 # Creating a year column and merging the data to one dataset
 for year in range(2015, 2024):
-    filename = f'C:\\Users\\ebello\\OneDrive - United Against Poverty\\Desktop\\D.A.P\\Happiness_analysis\\WHR_{year}.csv'
+    filename = f'...\\Happiness_analysis\\WHR_{year}.csv'
     data = pd.read_csv(filename)
     data['year'] = year
     df = pd.concat([df, data], ignore_index=True)
@@ -22,7 +22,7 @@ df.to_csv("Happiness_Data(2015-2023).csv", index=False)
 
 
 # Renaming the data for readability purposes
-happy_data = pd.read_csv(r"C:\Users\ebello\OneDrive - United Against Poverty\Desktop\D.A.P\Happiness_analysis\Happiness_Data(2015-2023).csv")
+happy_data = pd.read_csv(r"...\Happiness_Data(2015-2023).csv")
 print(happy_data.head())
 
 
