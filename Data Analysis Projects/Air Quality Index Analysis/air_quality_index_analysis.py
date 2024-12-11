@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 pio.templates.default ='plotly_white'
 
 # Importing the Dataset
-data = pd.read_csv(r"C:\Users\ebello\OneDrive - United Against Poverty\Desktop\D.A.P\delhiaqi.csv")
+data = pd.read_csv(r"...\delhiaqi.csv")
 print(data.head())
 
 
