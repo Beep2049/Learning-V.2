@@ -3,7 +3,7 @@ This is my repository that contains all of my projects that I have made in order
 
 Majority is in Python but as I get more versed with different languages I will add more projects to it and update the read.me(s).
 
-Hope you enjoy the learning procecss as much as I do.
+Hope you enjoy the learning process as much as I do.
 
 ---
 
@@ -25,5 +25,8 @@ UNDER CONSTRUCTION
 []()
 ---
 
-### [project name]
-asdasdasdasdasdasd
+### [Data Anaylsis Projects]
+
+### [Game Projects]
+
+### [Casual Projects]
