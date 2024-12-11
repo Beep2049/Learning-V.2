@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 
 
 # Importing the Data
-df = pd.read_csv(r'C:\Users\ebello\OneDrive - United Against Poverty\Desktop\D.A.P\FuckItMusic-music-export.csv')
+df = pd.read_csv(r'...\FuckItMusic-music-export.csv')
 print(df.head())
 
 # Columns and Objects
