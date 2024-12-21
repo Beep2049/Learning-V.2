@@ -9,7 +9,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.preprocessing import PolynomialFeatures
 
 # Importing Data
-data = pd.read_csv(r"C:\Users\ebello\OneDrive - United Against Poverty\Desktop\D.A.P\01 renewable-share-energy.csv")
+data = pd.read_csv(r"...01 renewable-share-energy.csv")
 print(data.head())
 
 
