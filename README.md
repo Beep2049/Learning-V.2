@@ -1,11 +1,9 @@
 # Welcome
 This is my repository that contains all of my projects that I have made in order to learn how to code.
 
-Majority is in Python but as I get more versed with different languages I will add more projects to it and update the read.me(s).
+Majority is in Python but as I get more versed with different languages I will add more projects and update the read.me accordingly
 
 Hope you enjoy the learning procecss as much as I do.
-
-
 
 ## Content
 ### [Casual Projects](https://github.com/Beep2049/Learning-V.2/tree/main/Casual%20Projects)
@@ -46,7 +44,6 @@ So far this contains two projects: My personal website and a website for an even
 
 ---
 <br>
-
 Any and all advice is greatly appreciated.  
 Thank you for visiting.
 
