@@ -43,8 +43,8 @@ So far this contains two projects: My personal website and a website for an even
 
 
 ---
+Any and all advice is greatly appreciated. 
 <br>
-Any and all advice is greatly appreciated.  
 Thank you for visiting.
 
 -Eric B.
