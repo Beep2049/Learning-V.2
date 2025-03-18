@@ -10,7 +10,7 @@ Hope you enjoy the learning procecss as much as I do.
 
 These are projects i've made in order to learn how to make practical use of my coding knowledge:
 
-- [Password Editor](https://github.com/Beep2049/Learning-V.2/tree/main/Casual%20Projects/Password%20Generator)
+- [Password Generator](https://github.com/Beep2049/Learning-V.2/tree/main/Casual%20Projects/Password%20Generator)
 - [Text Editor](https://github.com/Beep2049/Learning-V.2/tree/main/Casual%20Projects/Text%20Editor)
 - To-Do-List(coming soon)
 - [Garbage Compiler in C](https://github.com/Beep2049/Learning-V.2/tree/main/Casual%20Projects/Garbage%20Compiler%20in%20C)
