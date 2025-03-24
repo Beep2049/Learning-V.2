@@ -12,7 +12,7 @@ These are projects i've made in order to learn how to make practical use of my c
 
 - [Password Generator](https://github.com/Beep2049/Learning-V.2/tree/main/Casual%20Projects/Password%20Generator)
 - [Text Editor](https://github.com/Beep2049/Learning-V.2/tree/main/Casual%20Projects/Text%20Editor)
-- [ToDo List]()
+- [ToDo List](https://github.com/Beep2049/Learning-V.2/tree/main/Casual%20Projects/Todo-list-project)
 - [Garbage Compiler in C](https://github.com/Beep2049/Learning-V.2/tree/main/Casual%20Projects/Garbage%20Compiler%20in%20C)
 - [Learning how ML Works in Python](https://github.com/Beep2049/Learning-V.2/tree/main/Casual%20Projects/Learning%20How%20ML's%20Work%20with%20Python)
 
