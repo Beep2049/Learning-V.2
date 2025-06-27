@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale 1.0">
+    <title>Eric's Webpage</title>
+    <link rel='stylesheet' href="website_design2.css">
+    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body>
+    <main>
+      <header id='header'>
+        <h1 id='header-text'>Hello, I'm Eric.</h1>
+      </header>
+      <nav id='navbar'>
+        <a class='nav-link' href="#About">About</a>
+        <a class='nav-link' href="#Projects">Projects</a>
+        <a class='nav-link' href="#Contact">Contact</a>
+        <a class="nav-link" href="Resume_Eric_Bello.pdf">Resume</a>
+      </nav>
+
+      <section class='About' id='About'>
+        <p class='bio'>
+          <h3 id='about-header'>About</h3>
+          <p id="about-text">
+            I'm a burgeoning progammer, polymath, and innovative thinker who's always looking for the next great challenge.
+            Open minded, honest, and tenacious, I strive to bring out the best in myself and others. Always learning, always growing, 
+            and always ready for the next thing that excites me. 
+            On my down time, I love to listen to 
+            <a id='Spotify' href='https://open.spotify.com/user/1280478636' target='_blank'>music</a>, 
+            cook, 
+            <a id='Goodreads' href='https://www.goodreads.com/user/show/102338519-eric' target='_blank'>read</a>, 
+            <a id='Rateyourmusic' href='https://rateyourmusic.com/~FuckItMusic' target='_blank'>watch movies</a>, 
+            and <a id='Rateyourmusic' href='https://glitchwave.com/user/FuckItMusic/' target='_blank'>play video games</a>.
+          </p>
+        </p>
+      </section>
+
+      <br>
+      <br>
+
+      <section class="Projects" id="Projects">
+          <div class="projects-text-container">
+            <h3 id='project-header'>My Personal and Public Projects</h3>
+          </div>
+          <br>
+          <div class="folder-grid">
+            <div class="folder-block">
+              <h4 id="folder-text">Data Analyis</h4>
+              <img src="YellowFolder2.png" alt="data-analysts-img-open" class="folder" data-modal="modal1">
+            </div>
+            <div class="folder-block">
+              <h4 id="folder-text">Web Design</h4>
+              <img src="YellowFolder2.png" alt="web-design-img-open" class="folder" data-modal="modal2">
+            </div>
+            <div class="folder-block">
+              <h4 id="folder-text">Game Projects</h4>
+              <img src="YellowFolder2.png" alt="game-projects-img-open" class="folder" data-modal="modal3">
+            </div>
+            <div class="folder-block">
+              <h4 id="folder-text">Casual Projects</h4>
+              <img src="YellowFolder2.png" alt="casual-projects-img-open" class="folder" data-modal="modal4">
+            </div>
+          </div>
+
+          <div id="modal1" class="modal modal-hidden">
+            <div class="modal-header">
+              <span class="close-btn">&times;</span>
+              <span class="modal-title">Data Analysis</span>
+            </div>
+            <div class="modal-content">
+              <ul class="data-links">
+                <li id="data-analysts-project-1"><a href="https://github.com/Beep2049/Learning-V.2/tree/main/Data%20Analysis%20Projects/Air%20Quality%20Index%20Analysis" target="_blank">Air Quality Index Analysis</a></li>
+                <li id="data-analysts-project-2"><a href="https://github.com/Beep2049/Learning-V.2/tree/main/Data%20Analysis%20Projects/Happiness%20Analysis" target="_blank">Happiness Analysis</a></li>
+                <li id="data-analysts-project-3"><a href="https://github.com/Beep2049/Learning-V.2/tree/main/Data%20Analysis%20Projects/Music%20Profile%20Analysis" target="_blank"> Music Profile Analysis</a></li>
+                <li id="data-analysts-project-4"><a href="https://github.com/Beep2049/Learning-V.2/tree/main/Data%20Analysis%20Projects/Recession%20Anaylsis" target="_blank">Recession Analysis</a></li>
+                <li id="data-analysts-project-5"><a href="https://github.com/Beep2049/Learning-V.2/tree/main/Data%20Analysis%20Projects/Renewable%20Resource%20Time%20Series" target="_blank">Renewable Resource Analysis</a></li>
+                <li id="data-analysts-project-6"><a href="https://github.com/Beep2049/Learning-V.2/tree/main/Data%20Analysis%20Projects/Stock%20Price%20Prediction%20Analysis" target="_blank">Stock Price Predicition Analysis</a></li>
+              </ul>
+            </div>   
+          </div>
+
+          <div id="modal2" class="modal modal-hidden">
+            <div class="modal-header">
+              <span class="close-btn">&times;</span>
+              <span class="modal-title">Web Design</span>
+            </div>
+            <div class='modal-content'>
+              <ul class="web-design-links">
+                <li id="web-design-project-1"><a href="https://github.com/Beep2049/Learning-V.2/tree/main/Website%20Projects/personal_website" target="_blank">My Website(what's under the hood)</a></li>
+                <li id="web-design-project-2"><a href="https://github.com/Beep2049/Learning-V.2/tree/main/Website%20Projects/the_mosh_at_sunset_website" target="_blank">The Mosh at Sunset(Event Website)</a></li>
+                <li id="web-design-project-3">More Websites Coming Soon...</li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="modal3" class="modal modal-hidden">
+            <div class="modal-header">
+              <span class="close-btn">&times;</span>
+              <span class="modal-title">Game Projects</span>
+            </div>
+            <div class="modal-content">
+              <ul class="game-links">
+                <li id="game-project-1"><a href="https://github.com/Beep2049/Learning-V.2/blob/main/Game%20Projects/Pong/pong.py" target="_blank">Pong</a></li>
+                <li id="game-project-2"><a href="https://github.com/Beep2049/Learning-V.2/tree/main/Game%20Projects/Space%20Invaders" target="_blank">Space Invaders</a></li>
+                <li id="game-project-3">Asteroids(Coming Soon)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="modal4" class="modal modal-hidden">
+            <div class="modal-header">
+              <span class="close-btn">&times;</span>
+              <span class="modal-title">Casual Projects</span>
+            </div>
+            <div class="modal-content">
+              <ul class="casual-links">
+                <li id="casual-project-1"><a href="https://github.com/Beep2049/Learning-V.2/blob/main/Casual%20Projects/Password%20Generator/password_generator.py" target="_blank">Password Generator</a></li>
+                <li id="casual-project-2"><a href="https://github.com/Beep2049/Learning-V.2/blob/main/Casual%20Projects/Text%20Editor/text_editor.py" target="_blank">Text Editor</a></li>
+                <li id="casual-project-3"><a href="https://github.com/Beep2049/Learning-V.2/tree/main/Casual%20Projects/Todo-list-project" target="_blank">ToDo List</a></li>
+                <li id="casual-project-4"><a href="https://github.com/Beep2049/Learning-V.2/blob/main/Casual%20Projects/Garbage%20Compiler%20in%20C/main.c" target="_blank">Garbage Compiler in C</a></li>
+                <li id="casual-project-5"><a href="https://github.com/Beep2049/Learning-V.2/blob/main/Casual%20Projects/Learning%20How%20ML's%20Work%20with%20Python/learning_how_mls_works.py" target="_blank">Machine Learning with Python</a></li>
+              </ul>
+            </div>
+          </div>
+      </section>
+
+      <br>
+      
+      <section class='Contact' id='Contact'>
+        <h3>Contact</h3>
+        <br>
+        <a class='profile-link' id='Linkedin' href='https://www.linkedin.com/in/eric-bello/' target="_blank">
+          <i class='fa-brands fa-linkedin'></i></a>
+        <a class='profile-link' id='Github' href='https://github.com/Beep2049' target="_blank">
+          <i class='fa-brands fa-github'></i></a>
+        <a class='profile-link' id='Email' href='mailto:ericb725@gmail.com' target="_blank">
+          <i class='fa-regular fa-envelope'></i></a>
+      </section>
+      
+        <br>
+
+    </main>
+    <footer>
+      <p><em>I don't know where I'm going from here, but I promise it won't be boring. - David Bowie</em></p>
+    </footer>
+    <script src='website_scripts1.js'></script>
+    <script src="website_scripts2.js"></script>
+  </body>
+</html>

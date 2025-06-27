@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,*::before,*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 12px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.8rem; 
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.4;
+  background:rgba(6, 142, 233, 0.919);
+  color: rgb(244, 246, 249);
+}
+
+body.dragging, body.dragging * {
+  user-select: none;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+  margin: auto;
+
+}
+
+h3 {
+  font-size: 2.1rem;
+  text-decoration: underline;
+}
+
+a {
+  color: inherit; /* Use the same color as the surrounding text */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Link states */
+a:link {
+  color: inherit; /* Use the same color as the surrounding text */
+}
+
+a:visited {
+  color: inherit; /* Keep the same color after the link is visited */
+}
+
+a:hover {
+  color: inherit; /* Maintain the same color on hover */
+  text-decoration: underline; /* Optional: Add underline on hover for effect */
+}
+
+a:active {
+  color: inherit; /* Maintain the same color when the link is active */
+}
+#about-text, #project-mini-header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#header {
+  display: flex;
+  justify-content: center;   /* Horizontally center the text */
+  align-items: center;       /* Vertically center the text */
+  height: 50vh;             /* Adjust the height to center vertically in the viewport */
+  text-align: center;        /* Center the text content */
+  animation: blink-cursor 0.75s step-end infinite; /* Cursor blink effect */
+}
+
+#header-text {
+  font-size: 4.5rem;         /* Adjust font size as needed */
+  color: white;               /* Change the color as needed */
+  margin: 0;                 /* Remove default margin */
+}
+
+#header-text::after {
+  content: '|';
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  padding-top: 20px;
+}
+
+#Spotify{
+  text-decoration: none;
+}
+#Spotify:hover{
+  text-decoration: underline; 
+}
+#Goodreads{
+  text-decoration: none;
+}
+#Goodreads:hover{
+  text-decoration: underline; 
+}
+#Rateyourmusic:hover{
+  text-decoration: underline; 
+}
+#Rateyourmusic{
+  text-decoration: none;
+}
+
+.nav-link{
+  display: flex;
+  margin-right: 2rem;
+  text-decoration: none;
+}
+
+#folder-text{       
+  color: white;               
+  margin: 0;
+  text-decoration: none  
+}
+
+#folder-text:hover{
+  text-decoration: underline;
+}
+
+.folder-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+}
+
+.folder-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.folder {
+  width: 150px;
+  height: auto;
+  padding-left: 20px;
+  cursor: pointer;
+  image-rendering: pixelated;
+}
+
+.folder:active {
+  transform: translateY(3px);
+}
+
+.modal{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border: 2px solid #1c1c1c;
+  padding: 20px;
+  z-index: 1000;
+  width: 500px;
+  box-shadow: 0 0 20px #000;
+  font-family: 'Courier New', monospace;
+  color: black;
+}
+
+.modal-content{
+  padding: 10px;
+}
+
+.modal-title{
+  text-decoration: none;
+  text-align: center;
+}
+
+.modal-content ul {
+  list-style: none;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.modal-content a , .modal-content li{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: inherit;
+  text-decoration: none;
+  font-size: medium
+}
+
+.modal-content li:hover {
+  text-decoration: underline;
+}
+
+.modal-hidden {
+  display: none;
+}
+
+.close-btn{
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: left;
+}
+
+.profile-link {
+  text-decoration: none;   /* Remove underline from links */
+  color: rgb(255, 255, 255);            /* Default text color */
+  font-size: 24px;         /* Icon size */
+  padding: 10px;           /* Space around the icon */
+  margin: 5px;             /* Space between buttons */
+  height: 50px;
+  width: 50px;
+  border-radius: 60%;      /* Circular buttons */
+  display: inline-block;   /* Keep icons inline */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  text-align: center;
+  border: 2px solid transparent;            /* Start with no border */
+  box-shadow: #333;
+}
+
+.profile-link i {
+  text-align: center; /* Center the icon horizontally */
+}
+
+.profile-link:hover {
+  transform: scale(1.1);  /* Slightly increase the size */
+  color: #fff;            /* Keep the icon color white on hover */ 
+}
+
+#Linkedin {
+  background-color: #0077b5; 
+}
+
+#Github {
+  background-color: #333;    
+}
+
+#Email {
+  background-color: #D44638; 
+}
+
+@media (max-width: 600px) {
+  .profile-link {
+    font-size: 20px;      
+    padding: 8px;         
+    margin: 3px;          
+  }
+}
+
+footer > p  {
+  margin: 2rem;
+}
