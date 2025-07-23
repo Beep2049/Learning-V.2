@@ -38,10 +38,11 @@ Fun gaming projects made in pygame. I plan to branch out into more "serious" lan
 
 ### [Website](https://github.com/Beep2049/Learning-V.2/tree/main/Website%20Projects)
 
-So far this contains two projects: My personal website and a website for an event I hosted. Web design is a small passion that I plan to expand upon further in future projects
+Projects to teach me about front-end Web Design
 
 - [Personal Website](https://github.com/Beep2049/Learning-V.2/tree/main/Website%20Projects/website_2)
 - [The Mosh At Sunset Website](https://github.com/Beep2049/Learning-V.2/tree/main/Website%20Projects/the_mosh_at_sunset_website)
+- [Baking Website](https://github.com/Beep2049/Learning-V.2/tree/main/Website%20Projects/sashas_website)
 
 
 ---
