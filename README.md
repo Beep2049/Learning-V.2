@@ -36,7 +36,7 @@ Fun gaming projects made in pygame. I plan to branch out into more "serious" lan
 - [Space Invaders](https://github.com/Beep2049/Learning-V.2/tree/main/Game%20Projects/Space%20Invaders)
 - Asteriod(Coming Soon)
 
-### [Website](https://github.com/Beep2049/Learning-V.2/tree/main/Website%20Projects)
+### [Websites](https://github.com/Beep2049/Learning-V.2/tree/main/Website%20Projects)
 
 Projects to teach me about front-end Web Design
 
